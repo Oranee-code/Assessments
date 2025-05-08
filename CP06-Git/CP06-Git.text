@@ -1,0 +1,25 @@
+
+I made a new branch create a new branch called Oranee.
+** git checkout -b Oranee 
+
+
+I edit the file and saved it nd commit.
+* git add . 
+* git commit -m "Oranee branch update" 
+
+
+I do the same step with main branch.
+* git checkout main
+* git add .
+* git commit -m "Main branch update" 
+
+then I merge Oranne branch into main.
+* git checkout Oranee 
+* git merge Oranee 
+
+It was a conflict so I edit the file and saved it and committed again.
+* git commit -m "merge between main and Oranee"
+
+then I push to github.
+* git push origin main
+* git push origin Oranee
